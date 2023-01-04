@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../Particles";
+import Particle from "../Parti";
 import Resumecontent from "./ResumeContent";
 import ResumePdf from "../../Assets/Ananthresume-it.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
+
 
 function Resume() {
   return (

@@ -9,7 +9,7 @@ import {
   AiFillInstagram,
   AiFillFacebook,
 } from "react-icons/ai";
-import Particle from "../Particles";
+import Particle from "../Parti";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {

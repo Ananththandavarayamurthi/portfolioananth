@@ -1,14 +1,14 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import Particle from "../Particles";
+import Particle from "../Parti";
 import weather from "../../Assets/Projects/weather.png"
 import dog from "../../Assets/Projects/dog.png"
 import makeup from "../../Assets/Projects/makeup.png"
 import money from "../../Assets/Projects/money.png"
 import School from "../../Assets/Projects/school.png"
 import crud from "../../Assets/Projects/crud.png"
-import { BiMoney } from "react-icons/bi";
+
 
 function Projects() {
   return (
