@@ -9,13 +9,13 @@ import {
   AiFillInstagram,
   AiFillFacebook,
 } from "react-icons/ai";
-import Particle from "../Particles";
+
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
-      <Particle />
+     
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
