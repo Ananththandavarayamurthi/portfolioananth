@@ -1,7 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/profile1.svg";
+<<<<<<< HEAD
 import Particle from "../Parti";
+=======
+
+>>>>>>> cce08be913f4880a2426e61ff0083fabfeb627a4
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -9,7 +13,11 @@ function Home() {
   return (
     <section>
       <Container fluid className="home-section" id="home">
+<<<<<<< HEAD
         <Particle /> 
+=======
+        
+>>>>>>> cce08be913f4880a2426e61ff0083fabfeb627a4
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
