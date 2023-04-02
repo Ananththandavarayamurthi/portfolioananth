@@ -1,10 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import Home2 from "../Home/Home2"
 import Particle from "../Parti";
 import Resumecontent from "./ResumeContent";
-import ResumePdf from "../../Assets/Ananthresume-it.pdf";
-import { AiOutlineDownload } from "react-icons/ai";
 
 
 function Resume() {
@@ -12,20 +10,22 @@ function Resume() {
     <Container fluid className="resume-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={ResumePdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Resume
-          </Button>
-        </Row>
+       
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Sureveyor(Non-it)"
-              date="Dec 2019 - Feb 2022"
+              date="Dec 2019 - apr 2022"
               content={[
                 "Doing Survey work in Highway department .",
+              ]}
+            />
+            <Resumecontent
+              title="lidar analyst(Non-it)"
+              date="june 2022 - mar 2023"
+              content={[
+                "perform classification, feature extraction and mapping from processed LIDAR data.",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
@@ -62,12 +62,7 @@ function Resume() {
             
           </Col>
         </Row>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={ResumePdf} target="_blank">
-            <AiOutlineDownload />
-            &nbsp;Resume
-          </Button>
-        </Row>
+        <Home2 />
       </Container>
     </Container>
   );

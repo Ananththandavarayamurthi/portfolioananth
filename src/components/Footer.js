@@ -24,7 +24,9 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/ananth-t"
+                href="https://www.linkedin.com/in/ananth-t-471639260/" 
+                rel="noreferrer"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <FaLinkedinIn />
@@ -32,7 +34,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://github.com/Ananththandavarayamurthi"
+                href="https://github.com/Ananththandavarayamurthi" 
+                rel="noreferrer"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <AiFillGithub />
@@ -40,7 +44,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.facebook.com/ananth.raino"
+                href="https://www.facebook.com/ananth.raino" 
+                rel="noreferrer"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <AiFillFacebook />
@@ -48,7 +54,9 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/ananth7246/"
+                href="https://www.instagram.com/ananth7246/" 
+                rel="noreferrer"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <AiFillInstagram />
@@ -57,6 +65,8 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://twitter.com/AnanthT98155617"
+                rel="noreferrer"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <AiOutlineTwitter />

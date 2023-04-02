@@ -1,17 +1,22 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Parti";
-import Github from "./Github";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/profile2.svg";
-import Toolstack from "./Toolstack";
+import { AiOutlineDownload } from "react-icons/ai";
+import Button from "react-bootstrap/Button";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
+      <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button variant="primary" href="https://drive.google.com/file/d/195Bk5MguEf9399u2cWpMQnu_4YZeldL1/view?usp=share_link" target="_blank">
+            <AiOutlineDownload />
+            &nbsp;Resume
+          </Button>
+        </Row>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
             md={7}
@@ -34,19 +39,14 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          <strong className="purple">Professional Skillset </strong>
-        </h1>
-
-        <Techstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
-        </h1>
-        <Toolstack />
-
-        <Github />
+        
       </Container>
+      <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button variant="primary" href="https://drive.google.com/file/d/195Bk5MguEf9399u2cWpMQnu_4YZeldL1/view?usp=share_link" target="_blank">
+            <AiOutlineDownload />
+            &nbsp;Resume
+          </Button>
+        </Row>
     </Container>
   );
 }

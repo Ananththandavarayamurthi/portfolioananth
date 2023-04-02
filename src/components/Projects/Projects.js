@@ -22,6 +22,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={crud}
+              title="capacity tool office"
+              description="I have created this website for manage the employee capacity it used for office use ."
+              link1="https://github.com/Ananththandavarayamurthi/capstone-front-end"
+              link2="https://fluffy-naiad-0e3320.netlify.app/"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={money}
@@ -35,6 +45,16 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={School}
+              title="School manager"
+              description="I created this project for School management, this website note all the student and teachers details.and i used crud operation."
+              link1="https://github.com/Ananththandavarayamurthi/student-teacher"
+              link2="https://studentteacherlearn.netlify.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={makeup}
               title="Shoping Makeup"
               description="I have created this project for the Makeup API. So basically this is a website which show the make up products and i add Search option in this web page."
@@ -43,15 +63,7 @@ function Projects() {
               />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={School}
-              title="School manager"
-              description="I created this project for School management, this website note all the student and teachers details.and i used crud operation."
-              link1="https://github.com/Ananththandavarayamurthi/student-teacher"
-              link2="https://studentteacherlearn.netlify.app/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -73,15 +85,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={crud}
-              title="simple crud operation"
-              description="I have created this website for to do simple crud operation. This website is created with basic React.js with hooks."
-              link1="https://github.com/Ananththandavarayamurthi/task26-dash-board"
-              link2="https://peppy-lokum-3ef1c2.netlify.app/dashboard"
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>

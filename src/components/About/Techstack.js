@@ -21,22 +21,7 @@ import {
 function Techstack() {
   return (
     <Container>
-      <h3 className="project-heading" style={{ size: "20px" }}>
-        Languages
-      </h3>
-      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-        
-        <Col xs={4} md={2} className="tech-icons">
-          <DiPython />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiC />
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <SiJavascript />
-        </Col>
-       
-      </Row>
+      
 
       <h3 className="project-heading" style={{ size: "20px" }}>
         Web Development
